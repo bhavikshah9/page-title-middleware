@@ -2,9 +2,19 @@
     "name": "bhavikshah/page-title-middleware",
     "description": "Laravel 5.4 middleware package for Page Title",
     "keywords": ["middleware", "laravel"],
+    "homepage": "https://github.com/bhavikshah9/page-title-middleware",
     "license": "MIT",
-    "type": "project",
+    "authors": [
+        {
+            "name": "Bhavik Shah",
+            "email": "bhavikshah835@gmail.com",
+        }
+    ],
+    "support": {
+        "email": "bhavikshah835@gmail.com"
+    },
+    "type": "package",
     "require": {
-        "php": ">=5.6.4"
+        "php": "^7.0"
     }
 }
