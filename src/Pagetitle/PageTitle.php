@@ -9,17 +9,16 @@ class PageTitle
     /**
      * Handle an incoming request.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \Closure  $next
+     * @param \Illuminate\Http\Request  $request
+     * @param \Closure  $next
      * @return mixed
      */
-    public function handle($request, Closure $next, $pageTitle="")
+    public function handle($request, Closure $next, $pageTitle = "")
     {
-        
         if (!empty($pageTitle)) {
             \View::share('dynamicPageTitle', $pageTitle);
         }
-        
+
         //echo "pageTitle:" . $pageTitle;
 
         /*
