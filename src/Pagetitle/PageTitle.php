@@ -16,7 +16,7 @@ class PageTitle
      */
     public function handle($request, Closure $next, $pageTitle = '')
     {
-        if (!empty($pageTitle)) {
+        if (! empty($pageTitle)) {
             \View::share('dynamicPageTitle', $pageTitle);
         }
 
