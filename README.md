@@ -10,7 +10,7 @@
 
 You can install the package via composer:
 ``` bash
-$ composer require spatie/laravel-robots-middleware
+$ composer require bhavikshah/page-title-middleware
 ```
 
 ## Contributing
